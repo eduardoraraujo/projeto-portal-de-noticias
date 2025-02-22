@@ -42,3 +42,19 @@ h3 {
   color: var(--text-color-primary);
   font: inherit;
 }
+
+/* utility first */
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
